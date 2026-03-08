@@ -1,10 +1,31 @@
 # Steam Recommender System (Implicit ALS)
 
-This project builds a collaborative filtering recommender system 
-based on implicit user–item interactions from the Steam dataset.
+## Project Overview
 
-The model is trained using **Alternating Least Squares (ALS)** 
-and evaluated against a **global popularity baseline** using Precision@K and Recall@K.
+This project builds a **collaborative filtering recommender system** based on implicit user-item interactions from the Steam gaming platform.
+
+The system uses **Alternating Least Squares (ALS)** to learn hidden user and item representations and generate personalized game recommendations.
+
+The project includes the full **data science pipeline**: preprocessing implicit feedback data, training the recommendation model, and evaluating performance using ranking metrics.
+
+## Tech Stack
+
+- Python
+- pandas
+- numpy
+- implicit (ALS implementation)
+- scipy
+- scikit-learn
+
+## Skills Demonstrated
+
+- Recommender Systems
+- Collaborative Filtering
+- Implicit Feedback Modeling
+- Matrix Factorization (ALS)
+- Feature Engineering
+- Offline Evaluation (Precision@K, Recall@K)
+- Data preprocessing and filtering
 
 ---
 
